@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Her Birthday Photos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Photos</a>
+    <a href="song.html">Song</a>
+    <a href="thanks.html">Thanks</a>
+  </nav>
+
+  <!-- Title -->
+  <h1>🎉 Happy Birthday Shreya! 🎂</h1>
+  <p>Here are 10 amazing memories with you:</p>
+
+  <!-- 10 Photos with Captions -->
+  <section id="portfolio">
+    <figure>
+      <img src="images/photo1.jpeg" width="250" alt="Beach Day" onclick="showEmoji('❤️')">
+      <figcaption>🌊 Can't describe the image has nice pixels or you are more cute.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo2.jpeg" width="250" alt="Graduation" onclick="showEmoji('💙')">
+      <figcaption>Innocent but with pretty</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo3.jpeg" width="250" alt="Birthday Party" onclick="showEmoji('💜')">
+      <figcaption>🎂 The best person to take pics with</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo4.jpeg" width="250" alt="Travel" onclick="showEmoji('💛')">
+      <figcaption>Cant deny the fact that you are looking literally hayeee</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo5.jpeg" width="250" alt="Festival" onclick="showEmoji('💚')">
+      <figcaption>🎉 Would literally be the fan if you were a veteran actress</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo6.jpeg" width="250" alt="Picnic" onclick="showEmoji('🧡')">
+      <figcaption>🍉 quite nice cheeks</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo7.jpeg" width="250" alt="Selfie" onclick="showEmoji('💖')">
+      <figcaption>Ahan the best student</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo8.jpeg" width="250" alt="Concert" onclick="showEmoji('💗')">
+      <figcaption>🎶 the lady boss</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo9.jpeg" width="250" alt="Friends" onclick="showEmoji('💘')">
+      <figcaption>👯 Hanging out never felt worthless</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/photo10.jpeg" width="250" alt="Special Moment" onclick="showEmoji('💝')">
+      <figcaption>✨ Thanks for being there always</figcaption>
+    </figure>
+  </section>
+
+  <!-- Buttons -->
+  <button onclick="celebrate()">Click for more confetti 🎊</button>
+  <button onclick="toggleMusic()">🎶 Toggle Music</button>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" autoplay loop hidden>
+    <source src="background.mpeg" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
